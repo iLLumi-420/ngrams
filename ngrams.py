@@ -43,9 +43,9 @@ with open('all-data.csv', 'r') as file:
     negative_unigram = generate_ngrams(all_negative_words, 1)
     neutral_unigram = generate_ngrams(all_neutral_words, 1)
 
-    print(positive_unigram[:20])
-    print(negative_unigram[:20])
-    print(neutral_unigram[:20])
+
+
+
     
 
 
